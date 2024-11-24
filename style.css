@@ -1,0 +1,71 @@
+
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif; /* Clean, modern font */
+    background-color: #f4f4f9; /* Light gray background */
+    color: #333; /* Dark text for readability */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+/* Main Container */
+.container {
+    width: 80%; /* Sets content width */
+    margin: 20px auto; /* Centers the content */
+    background: #fff; /* White background for contrast */
+    padding: 20px; /* Adds space inside the container */
+    border-radius: 8px; /* Rounded corners for a smooth look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Heading Styling */
+h1, h2 {
+    color: #555; /* Slightly darker gray for headings */
+    margin-bottom: 15px; /* Adds space below headings */
+    text-align: center; /* Centers the headings */
+}
+
+/* Paragraph Styling */
+p {
+    line-height: 1.6; /* Improves readability */
+    margin-bottom: 15px; /* Adds spacing between paragraphs */
+}
+
+/* Images */
+img {
+    max-width: 100%; /* Ensures images adjust to container size */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px; /* Adds rounded corners */
+}
+
+/* Profile Picture Styling */
+.profile-pic {
+    float: left; /* Places the image to the left of text */
+    margin-right: 20px; /* Adds space to the right of the image */
+    border: 2px solid #ddd; /* Subtle border for emphasis */
+    width: 150px; /* Fixed width for uniform size */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Section Headings */
+h2 {
+    border-bottom: 2px solid #ddd; /* Underlines the section headings */
+    padding-bottom: 5px; /* Adds space below the heading */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .container {
+        width: 95%; /* Shrinks the content width */
+    }
+
+    .profile-pic {
+        float: none; /* Stops floating the image */
+        margin: 0 auto 20px; /* Centers the image */
+        display: block; /* Ensures the image appears on its own line */
+    }
+
+    h1, h2 {
+        text-align: left; /* Aligns headings to the left for smaller screens */
+    }
+}
